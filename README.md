@@ -8,8 +8,8 @@
 | Dimensiones         | 101.8 x 44.9 x 9.5 mm                      |
 | Peso                | 93.5 g                                     |
 | SoC                 | Mediatek MTK6739                           |
-| CPU                 | Quad-core (2x1.5 GHz, 1x2 GHz, 1x2.4 GHz   |
-| GPU                 | ARM Mali-T720 MP1, 1x400 MHz               |
+| CPU                 | Quad-core (2x1.5 GHz, 1x2 GHz, 1x2.4 GHz)  |
+| GPU                 | ARM Mali-T720 MP1 (1x400 MHz)              |
 | Memoria             | 2/3GB                                      |
 | Bateria             | 1.000 mAh de Li-Po,   carga 25-30 minutos  |
 | USB                 | USB Tipo-C 2.0                             |
