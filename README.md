@@ -2,7 +2,7 @@
  <img src="i9.jpg">
 
 ## Especificaciones
-
+| Specs.              |                                            |
 | ------------------- | -------------------------------------------|
 | Dimensiones         | 101.8 x 44.9 x 9.5 mm                      |
 | Peso                | 93.5 g                                     |
