@@ -1,5 +1,5 @@
 # Anica-K-TOUCH-i9
- <img src="i9.jpg">
+ <img src="HTB1frKiaODxK1RjSsphq6zHrpXaB.jpg_~2.jpg">
 
 ## Especificaciones
 | Specs.              |                                            |
