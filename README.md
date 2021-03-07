@@ -13,7 +13,7 @@
 | Bateria             | 1.000 mAh de Li-Po,   carga 25-30 minutos  |
 | USB                 | USB Tipo-C 2.0                             |
 | Almacenamiento      | 16/32GB, expansión MicroSD                 |
-| Pantalla            | OLED (16M) 340x800px (3.5") 248ppi         |
+| Pantalla            | TFT (16M) 340x800px (3.5") 248ppi         |
 | Cámara Principal    | 8 MP 3264 x 2448 pixels LED flash          |
 | Cámara Selfie       | 5 MP 2592 x 1944 pixels                    |
 
