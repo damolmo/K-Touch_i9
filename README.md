@@ -1,4 +1,4 @@
-# Anica K-TOUCH i9
+# K-TOUCH i9
  <img src="HTB1frKiaODxK1RjSsphq6zHrpXaB.jpg_~2.jpg">
 
 ## Especificaciones
