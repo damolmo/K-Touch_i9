@@ -9,6 +9,7 @@
 | SoC                 | MTK6739, 64-bits                          |
 | CPU                 | Quad-core (2x1.5 GHz, 1x2 GHz, 1x2.4 GHz)  |
 | GPU                 | ARM Mali-T720 MP1 (1x400 MHz)              |
+| Redes               | 2G, 3G, 4G|
 | Memoria             | 2/3GB                                      |
 | Bateria             | 1.000 mAh de Li-Po|
 | USB                 | USB Tipo-C 2.0                             |
