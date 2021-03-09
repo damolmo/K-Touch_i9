@@ -39,5 +39,5 @@ lunch omni_i9-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true 
 
 #Download TWRP 
-out/target/product/umi/recovery.img #Result build will be inside this folder
+out/target/product/i9/recovery.img #Result build will be inside this folder
 ```
