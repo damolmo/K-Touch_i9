@@ -9,8 +9,6 @@ PRODUCT_BRAND := Ktouch
 PRODUCT_MODEL := i9
 PRODUCT_MANUFACTURER := Ktouch
 
-PRODUCT_COPY_FILES += device/ktouch/i9/prebuilt/kernel:kernel
-
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
     
