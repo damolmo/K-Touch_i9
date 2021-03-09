@@ -31,7 +31,7 @@ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.
 repo sync -j$(nproc --all)
 
 #Clone K-Touch i9 device tree and create device folder
-git clone -b TWRP-10-SAR https://github.com/daviiid99/K-Touch_i9/tree/TWRP-10-SAR device/ktouch/i9
+git clone -b TWRP-10-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build twrp
 . build/envsetup.sh
