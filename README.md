@@ -6,7 +6,7 @@ Device tree para TeamWin Recovery Project en K-Touch i9, compatible con Android 
 
 
 # Build instructions
-(Es posible que la compilación falle y pida permiso para eliminar la ruta root/vendor, hazlo manualmente y debería acabr de compilarse)
+(Es posible que la compilación falle y pida permiso para eliminar la ruta root/vendor, hazlo manualmente y debería acabar de compilarse)
 ```
 #Install dependencies
 sudo apt update && sudo apt install git-core gnupg flex bison gperf zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip openjdk-8-jdk build-essential git fastboot adb
