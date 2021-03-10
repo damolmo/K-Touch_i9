@@ -2,9 +2,11 @@
  <img src="HTB1frKiaODxK1RjSsphq6zHrpXaB.jpg_~2.jpg">
 
 # Index
-<b> <a href=" ">Especificaciones</a> </b>
-<b> <a href=" ">Firmware Stock</a> </b>
-<b> <a href=" ">TeamWin Recovery Project</a> </b>
+<b> <a href="https://github.com/daviiid99/K-Touch_i9#especificaciones">Especificaciones</a> </b>
+
+<b> <a href="https://github.com/daviiid99/K-Touch_i9#firmware-stock">Firmware Stock</a> </b>
+
+<b> <a href="https://github.com/daviiid99/K-Touch_i9#builds-teamwin-recovery-project">TeamWin Recovery Project</a> </b>
 <br/>
 
 ## Especificaciones
