@@ -8,6 +8,7 @@
 
 <b> <a href="https://github.com/daviiid99/K-Touch_i9#builds-teamwin-recovery-project">TeamWin Recovery Project</a> </b>
 <br/>
+<br/>
 
 ## Especificaciones
 | Specs.              |                                            |
