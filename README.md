@@ -54,4 +54,13 @@ Cambia a la ruta de conflicto y borra esa ruta:
 cd out/target/product/i9/recovery/root
 rm -rf vendor
 cd ../../../../../../
-mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true 
+mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
+```
+
+Si todo sale bien, deberías ver un log cómo el siguiente:
+```
+[100% 8416/8416] ----- Making recovery image ------
+
+#### build completed successfully (01:00 (mm:ss)) ####
+```
+
