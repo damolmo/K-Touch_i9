@@ -3,17 +3,17 @@
 
 <img src="res/0.jpg">
 
-1.- Descarga el binary de Parted de abajo según tu Arquitectur (en el caso del i9 es ARM64)
+<b>1.- Descarga el binary de Parted de abajo según tu Arquitectura<b (en el caso del i9 es ARM64)</b>
 
 <b>```Parted ARM```:<a href="https://github.com/daviiid99/K-Touch_i9/raw/Parted-GUIDE/Binaries/parted_ARM.zip">Descarga</a></b>
 
 <b>```Parted ARM64```:<a href="https://github.com/daviiid99/K-Touch_i9/raw/Parted-GUIDE/Binaries/parted_ARM64.zip">Descarga</a></b>
 <br/>
 <br/>
-2.- Bootea el teléfono a TWRP, para esta guía usaremos <b><a href="https://github.com/daviiid99/K-Touch_i9/raw/Parted-GUIDE/Binaries/parted_recovery.img">esta compilación</a></b>
+<b>2.- Bootea el teléfono a TWRP, para esta guía usaremos <b><a href="https://github.com/daviiid99/K-Touch_i9/raw/Parted-GUIDE/Binaries/parted_recovery.img">esta compilación</a></b></b>
 <br/>
 
-3.- Descomprime el archivo parted en una ruta, abre el terminal, conecta el teléfono por USB y escribe lo siguientes:
+<b>3.- Descomprime el archivo parted en una ruta, abre el terminal, conecta el teléfono por USB y escribe lo siguientes:</b>
 ```
 adb push parted /sbin
 adb push mkfs.ext4 /sbin
@@ -21,7 +21,7 @@ adb shell
 ```
 <br/>
 
-4.- Aparecerá un log de bienvenida de parted, ahora escribe:
+<b>4.- Aparecerá un log de bienvenida de parted, ahora escribe:</b>
 ```
 chmod 777 /sbin/parted
 chmod 777 /sbin/mkfs.ext4
@@ -29,7 +29,7 @@ parted /dev/block/mmcblk0
 ```
 <br/>
 
-5.- Escribe lo siguiente para listar las particiones:
+<b>5.- Escribe lo siguiente para listar las particiones:</b>
 ```
 print
 ```
@@ -46,7 +46,7 @@ rm 33
 ```
 <br/>
 
-6.- Teniendo las particiones borradas, es hora de crearlas.
+<b>6.- Teniendo las particiones borradas, es hora de crearlas.</b>
 Para crear las nuevas particiones, ya que queremos ampliar la stock, debemos escoger un inicio adecuado y un final que queramos.
 
 Por ejemplo:
@@ -68,7 +68,7 @@ Y el resultado de las particiones al hacer ```print``` sería el siguiente:
 <img src="https://github.com/daviiid99/K-Touch_i9/blob/Parted-GUIDE/res/2.png">
 <br/>
 
-7.- Una vez creadas las particiones, es hora de nombrarlas. Fíjate en el print en que numero ocupa cada tamaño y llámalas segun corresponda.
+<b>7.- Una vez creadas las particiones, es hora de nombrarlas. Fíjate en el print en que numero ocupa cada tamaño y llámalas segun corresponda.</b>
 En el i9 sería:
 ```
 name 31 system
@@ -77,7 +77,7 @@ name 33 userdata
 ```
 <br/>
 
-8.- Ahora hay que asignarle a las particiones su flag original, haz lo mismo cambiando el número por el que corresponda en tus particiones.
+<b>8.- Ahora hay que asignarle a las particiones su flag original, haz lo mismo cambiando el número por el que corresponda en tus particiones.</b>
 En el i9 sería:
 ```
 set 31 msftdata on 
@@ -86,11 +86,11 @@ set 33 msftdata on
 ```
 <br/>
 
-9.- Escribe ```quit``` para salir de Parted. Ya está reparticionado
+<b>9.- Escribe ```quit``` para salir de Parted. Ya está reparticionado</b>
 <br/>
 
-10- Reinicia TWRP, ve al menú ```Wipe> system,data,cache>File system options>Change file system>EXT2>EXT4```
-  Y repite ese paso con cada una de las particiones reparticionadas hasta que muestren su nuevo tamaño.
+<b>10- Reinicia TWRP, ve al menú ```Wipe> system,data,cache>File system options>Change file system>EXT2>EXT4```
+  Y repite ese paso con cada una de las particiones reparticionadas hasta que muestren su nuevo tamaño.</b>
   <br/>
   
-11.- Ya puede instalar ROMs/GSis que necesiten más espacio.
+<b>11.- Ya puede instalar ROMs/GSis que necesiten más espacio.</b>
