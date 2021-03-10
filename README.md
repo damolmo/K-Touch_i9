@@ -43,7 +43,7 @@ out/target/product/i9/recovery.img #Result build will be inside this folder
 ```
 <br/>
 
-<b>NOTA:</b>
+# Clean Build:
 Es posible que la compilación falle con el siguiente error:
 ```
 cannot delete non-empty directory: root/vendor
@@ -66,7 +66,7 @@ Si todo sale bien, deberías ver un log cómo el siguiente:
 <br/>
 <br/>
 
-<b>NOTA:</b>
+# Dirty Build:
 Es posible que la compilación falle con el siguiente error:
 ```
 cannot delete non-empty directory: root/etc
