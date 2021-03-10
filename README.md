@@ -7,6 +7,8 @@
 <b> <a href="https://github.com/daviiid99/K-Touch_i9#firmware-stock">Firmware Stock</a> </b>
 
 <b> <a href="https://github.com/daviiid99/K-Touch_i9#builds-teamwin-recovery-project">TeamWin Recovery Project</a> </b>
+
+<b> <a href="https://github.com/daviiid99/K-Touch_i9/blob/Parted-GUIDE/README.md">Reparticionar /system</a></b>
 <br/>
 <br/>
 
