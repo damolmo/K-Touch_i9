@@ -64,6 +64,7 @@ Si todo sale bien, deberías ver un log cómo el siguiente:
 #### build completed successfully (01:00 (mm:ss)) ####
 ```
 <br/>
+<br/>
 
 <b>NOTA:</b>
 Es posible que la compilación falle con el siguiente error:
