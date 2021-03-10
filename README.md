@@ -3,7 +3,7 @@
 
 <img src="res/0.jpg">
 
-<b>1.- Descarga el binary de Parted de abajo según tu Arquitectura<b (en el caso del i9 es ARM64)</b>
+<b>1.- Descarga el binary de Parted de abajo según tu Arquitectura (en el caso del i9 es ARM64)</b>
 
 <b>```Parted ARM```:<a href="https://github.com/daviiid99/K-Touch_i9/raw/Parted-GUIDE/Binaries/parted_ARM.zip">Descarga</a></b>
 
@@ -57,6 +57,7 @@ En el caso del i9 para aumentar el /system hasta las 4GB sería:
 ```
 mkpart system ext4 1636 5636
 ```
+```NOTA: 1636 es el valor suma de la partición anterior y es "start", 5636 es la suma del nuevo start + el valor que queremos como tamaño final y es " end)```
 
 Repetimos el mismo paso para volver a crear el /cache y el /userdata con el espacio restante:
 ```
