@@ -1,6 +1,12 @@
 # K-TOUCH i9
  <img src="HTB1frKiaODxK1RjSsphq6zHrpXaB.jpg_~2.jpg">
 
+# Index
+<b> <a href=" ">Especificaciones</a> </b>
+<b> <a href=" ">Firmware Stock</a> </b>
+<b> <a href=" ">TeamWin Recovery Project</a> </b>
+<br/>
+
 ## Especificaciones
 | Specs.              |                                            |
 | ------------------- | -------------------------------------------|
@@ -17,6 +23,17 @@
 | Pantalla            | TFT (16M) 340x800px (3.5") 248ppi         |
 | Cámara Principal    | 8 MP 3264 x 2448 pixels LED flash          |
 | Cámara Selfie       | 5 MP 2592 x 1944 pixels                    |
+<br/>
 
+## Builds TeamWin Recovery Project
+| Version  |Download       |
+| ------------------- | -------------------------------------------|
+| 3.5.1_10-0| <a href="https://github.com/daviiid99/K-Touch_i9/releases/tag/Q">Download</a> |
+<br/>
 
-
+## Firmware Stock
+| Version  |Download       |
+| ------------------- | -------------------------------------------|
+| K-Touch-i9-2+16| <a href="https://github.com/daviiid99/K-Touch_i9/releases/download/stock/K-Touch-i9-2+16.rar">Download</a> |
+| K-Touch-i9-3+32| <a href="https://github.com/daviiid99/K-Touch_i9/releases/download/stock/K-Touch-i9-3+32.zip">Download</a> |
+<br/>
