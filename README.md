@@ -44,12 +44,9 @@ mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
 # could not make way for new symlink: root/vendor
 
 # Cambia a la ruta de conflicto y borra esa ruta
-# Y añade un tema optimizado
 
 cd out/target/product/i9/recovery/root
 rm -rf vendor
-rm -rf twres 
-git clone https://github.com/daviiid99/K-Touch_i9.git twres
 cd ../../../../../../
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
 
@@ -61,12 +58,9 @@ mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
 
 
 # Cambia a la ruta de conflicto y borra esa ruta
-# Y añade un tema optimizado
 
 cd out/target/product/i9/recovery/root
 rm -rf etc
-rm -rf twres 
-git clone https://github.com/daviiid99/K-Touch_i9.git twres
 cd ../../../../../../
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
 
