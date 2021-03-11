@@ -38,51 +38,39 @@ git clone -b TWRP-10-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktou
 lunch omni_i9-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true 
 
-#Download TWRP 
-out/target/product/i9/recovery.img #Result build will be inside this folder
-```
-<br/>
-
 # Clean Build:
-Es posible que la compilación falle con el siguiente error:
-```
-cannot delete non-empty directory: root/vendor
-could not make way for new symlink: root/vendor
-```
-Cambia a la ruta de conflicto y borra esa ruta:
-```
+# La compilación fallara con el siguiente error:
+# cannot delete non-empty directory: root/vendor
+# could not make way for new symlink: root/vendor
+
+# Cambia a la ruta de conflicto y borra esa ruta
+# Y añade un tema optimizado
+
 cd out/target/product/i9/recovery/root
 rm -rf vendor
+rm -rf twres 
+git clone https://github.com/daviiid99/K-Touch_i9.git twres
 cd ../../../../../../
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
-```
 
-Si todo sale bien, deberías ver un log cómo el siguiente:
-```
-[100% 8416/8416] ----- Making recovery image ------
-
-#### build completed successfully (01:00 (mm:ss)) ####
-```
-<br/>
-<br/>
 
 # Dirty Build:
-Es posible que la compilación falle con el siguiente error:
-```
-cannot delete non-empty directory: root/etc
-could not make way for new symlink: root/etc
-```
-Cambia a la ruta de conflicto y borra esa ruta:
-```
+# La compilación fallara con el siguiente error:
+# cannot delete non-empty directory: root/etc
+# could not make way for new symlink: root/etc
+
+
+# Cambia a la ruta de conflicto y borra esa ruta
+# Y añade un tema optimizado
+
 cd out/target/product/i9/recovery/root
 rm -rf etc
+rm -rf twres 
+git clone https://github.com/daviiid99/K-Touch_i9.git twres
 cd ../../../../../../
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
-```
 
-Si todo sale bien, deberías ver un log cómo el siguiente:
-```
-[100% 8416/8416] ----- Making recovery image ------
 
-#### build completed successfully (01:00 (mm:ss)) ####
+#Download TWRP 
+out/target/product/i9/recovery.img #Result build will be inside this folder
 ```
