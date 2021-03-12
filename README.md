@@ -36,35 +36,10 @@ git clone -b TWRP-10-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktou
 #Lunch command and build twrp
 . build/envsetup.sh
 lunch omni_i9-eng
+sudo chmod 777 device/ktouch/i9
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true 
 
-# Clean Build:
-# La compilación fallara con el siguiente error:
-# cannot delete non-empty directory: root/vendor
-# could not make way for new symlink: root/vendor
-
-# Cambia a la ruta de conflicto y borra esa ruta
-
-cd out/target/product/i9/recovery/root
-rm -rf vendor
-cd ../../../../../../
-mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
-
-
-# Dirty Build:
-# La compilación fallara con el siguiente error:
-# cannot delete non-empty directory: root/etc
-# could not make way for new symlink: root/etc
-
-
-# Cambia a la ruta de conflicto y borra esa ruta
-
-cd out/target/product/i9/recovery/root
-rm -rf etc
-cd ../../../../../../
-mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true
-
-
-#Download TWRP 
-out/target/product/i9/recovery.img #Result build will be inside this folder
+#Download and Flash TWRP 
+#out/target/product/i9/recovery.img #Result build will be inside this folder
+fastboot flash recovery out/target/product/i9/recovery.img
 ```
