@@ -84,5 +84,4 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 #Encryption
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
-#Extra
-TARGET_RECOVERY_WIPE := device/ktouch/i9/recovery.wipe
+
