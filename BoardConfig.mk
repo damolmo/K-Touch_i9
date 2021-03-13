@@ -51,6 +51,10 @@ TARGET_KERNEL_CONFIG := i9_defconfig
 # Platform
 TARGET_BOARD_PLATFORM := mt6739
 
+# System as root
+BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
