@@ -74,7 +74,7 @@
 			<text color="%header_color%">
 				<font resource="splash"/>
 				<placement x="760" y="1830" placement="5"/>
-				<text>Recovery Project %tw_version%</text>
+				<text>For K-TOUCH i9 %tw_version%</text>
 			</text>
 		</page>
 	</pages>
