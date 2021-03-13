@@ -32,10 +32,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
-# System as root
-BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
-BOARD_SUPPRESS_SECURE_ERASE := true
-
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive buildvariant=eng
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
