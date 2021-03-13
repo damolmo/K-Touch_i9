@@ -1,8 +1,0 @@
-# All the partitions to be wiped (in order) under recovery.
-/dev/block/bootdevice/by-name/system_root
-/dev/block/bootdevice/by-name/system
-/dev/block/bootdevice/by-name/userdata
-/dev/block/bootdevice/by-name/vendor
-/dev/block/bootdevice/by-name/boot
-/dev/block/bootdevice/by-name/cache
-/dev/block/bootdevice/by-name/recovery
