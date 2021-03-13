@@ -44,4 +44,4 @@ mka recoveryimage
 fastboot flash recovery out/target/product/i9/recovery.img
 ```
 # Custom Theme for K-TOUCH i9
-You can build an image with a TWRP custom theme, but keep in mind that this theme is deprecated in TWRP 3.5 or higher, you can mount the result recovery.img and replace the twres inside with <a href="https://github.com/daviiid99/K-Touch_i9.git">this theme</a>
+You can build an image with a TWRP custom theme, but keep in mind that this theme is deprecated in TWRP 3.5 or higher, you can mount the result recovery.img and replace the twres inside with <a href="https://github.com/daviiid99/K-Touch_i9/tree/twres">this theme</a>
