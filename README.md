@@ -2,8 +2,7 @@
 
 <img src="https://github.com/daviiid99/K-Touch_i9/blob/main/Screenshot_2010-01-02-07-51-42.png">
 
-Device tree para TeamWin Recovery Project en K-Touch i9, compatible con Android 10 y las últimas fuentes.
-
+Device tree para TeamWin Recovery Project en K-Touch i9, compatible con Android 11 y system_as_root
 
 # Build instructions
 
