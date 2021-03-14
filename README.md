@@ -20,7 +20,6 @@ chmod a+x ~/bin/repo
 wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 unzip platform-tools-latest-linux.zip -d ~
 cat >> ~/.profile<< EOF
-# add Android SDK platform tools to path
 if [ -d "\$HOME/platform-tools" ] ; then
     PATH="\$HOME/platform-tools:\$PATH"
 fi
