@@ -6,7 +6,7 @@
 /vendor             ext4      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor";backup=1; wipeingui 
 /vendor_image       emmc      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor image";backup=1;flashimg=1;
 /data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data"; 
-/sdcard	            ext4      /dev/block/platform/bootdevice/by-name/sdcard			    flags=display="Storage";backup=1;wipeingui
+/sdcard	            ext4      /dev/block/platform/bootdevice/by-name/sdcard			    flags=display="Storage";backup=1;
 /cache              ext4      /dev/block/platform/bootdevice/by-name/cache                          flags=display="Cache";
 /misc               emmc      /dev/block/platform/bootdevice/by-name/misc                           flags=display="Misc";backup=1;flashimg=1;
 /external_sd	    auto      /dev/block/mmcblk1p1 /dev/block/mmcblk1			            flags=display="MicroSD";storage;wipeingui;removable;backup=0;adopted_mount_delay=5
