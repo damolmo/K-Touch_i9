@@ -16,6 +16,16 @@ PATH=~/bin:$PATH
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
+#Install Android SDK Platform Tools
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+unzip platform-tools-latest-linux.zip -d ~
+cat >> ~/.profile<< EOF
+# add Android SDK platform tools to path
+if [ -d "\$HOME/platform-tools" ] ; then
+    PATH="\$HOME/platform-tools:\$PATH"
+fi
+EOF
+
 #Set build cache to 50G
 export USE_CCACHE=1
 export CCACHE_DIR=~/.ccache
