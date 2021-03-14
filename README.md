@@ -35,7 +35,6 @@ git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktou
 #Lunch command and build twrp
 . build/envsetup.sh
 lunch omni_i9-eng
-sudo chmod 777 device/ktouch/i9
 mka recoveryimage
 
 #Download and Flash TWRP 
