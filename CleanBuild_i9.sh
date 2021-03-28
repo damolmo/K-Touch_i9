@@ -8,7 +8,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
 #Install Android SDK Platform Tools
-wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+wget -r https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 unzip platform-tools-latest-linux.zip -d ~
 cat >> ~/.profile<< EOF
 if [ -d "\$HOME/platform-tools" ] ; then
