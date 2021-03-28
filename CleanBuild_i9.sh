@@ -1,4 +1,5 @@
 #Install dependencies
+export BUILDI9=[i9]
 sudo apt update&&sudo apt install git-core gnupg flex bison gperf zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip default-jdk build-essential git fastboot adb python python3
 
 #Install latest repo
@@ -24,7 +25,7 @@ source ~/.bashrc
 ccache -M 50G
 
 #Create twrp root folder
-mkdir -p twrp&&cd ~/twrp
+mkdir -p $BUILDI9/twrp&&cd $BUILDI9/twrp
 
 #Download and sync TWRP manifest
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
