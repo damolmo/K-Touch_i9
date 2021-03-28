@@ -5,7 +5,7 @@ source ~/.bashrc
 ccache -M 50G
 
 #Clean and update device tree source
-cd $BUILDI9/twrp/device/ktouch
+cd twrp/device/ktouch
 rm -rf i9
 cd ../../
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
