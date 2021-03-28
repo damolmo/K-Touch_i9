@@ -23,6 +23,10 @@ export CCACHE_DIR=~/.ccache
 source ~/.bashrc
 ccache -M 50G
 
+#Git config
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 #Create twrp root folder
 mkdir -p twrp&&cd twrp
 
