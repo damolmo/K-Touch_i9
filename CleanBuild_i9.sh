@@ -24,7 +24,7 @@ source ~/.bashrc
 ccache -M 50G
 
 #Create twrp root folder
-mkdir -p twrp&&cd twrp
+mkdir -p twrp&&cd ~/twrp
 
 #Download and sync TWRP manifest
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
@@ -34,7 +34,6 @@ repo sync -j$(nproc --all)
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build twrp
-cd twrp
 . build/envsetup.sh
 lunch omni_i9-eng
 mka recoveryimage
