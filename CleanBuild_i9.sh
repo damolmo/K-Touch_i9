@@ -34,6 +34,7 @@ repo sync -j$(nproc --all)
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build twrp
+cd twrp
 . build/envsetup.sh
 lunch omni_i9-eng
 mka recoveryimage
