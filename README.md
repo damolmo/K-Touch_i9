@@ -35,8 +35,11 @@
 ## Builds TeamWin Recovery Project
 | Version  |Download       |
 | ------------------- | -------------------------------------------|
+| 3.5.2_10-0| <a href="https://github.com/daviiid99/K-Touch_i9/releases/tag/20210406">Download</a> |
 | 3.5.1_10-0| <a href="https://github.com/daviiid99/K-Touch_i9/releases/tag/R">Download</a> |
 <br/>
+
+
 
 ## Firmware Stock
 | Version  |Download       |
