@@ -48,6 +48,7 @@ mkdir ~/OrangeFox_10&&cd ~/OrangeFox_10
 rsync rsync://sources.orangefox.download/sources/fox_10.0 . --progress -a
 
 #Clone K-Touch i9 device tree and create device folder
+cd fox_10.0
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build ofox
