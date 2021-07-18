@@ -51,7 +51,7 @@ rsync rsync://sources.orangefox.download/sources/fox_10.0 . --progress -a
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build ofox
-source build/envsetup.sh
+source build/envsetup.sh && export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1 && export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1 && export FOX_USE_NANO_EDITOR=1 && export LC_ALL="C"
 lunch omni_i9-eng
 mka recoveryimage
 
