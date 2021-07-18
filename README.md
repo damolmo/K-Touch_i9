@@ -8,7 +8,7 @@ Device tree para TeamWin Recovery Project en K-Touch i9, compatible con Android 
 
 ```
 #Install dependencies
-sudo apt update&&sudo apt install git-core gnupg flex bison gperf zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip default-jdk build-essential git fastboot adb python python3 rsync
+sudo apt update&&sudo apt install git-core gnupg flex bison gperf zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip default-jdk build-essential git fastboot adb python python3 rsync git aria2
 
 #Install latest repo
 mkdir ~/bin
@@ -35,24 +35,27 @@ ccache -M 50G
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
-#Create twrp root folder
-mkdir -p twrp&&cd twrp
+# Ofox Build environment
+git clone https://gitlab.com/OrangeFox/misc/scripts
+cd scripts
+sudo bash setup/android_build_env.sh
+sudo bash setup/install_android_sdk.sh
 
-#Download and sync TWRP manifest
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
-repo sync -j$(nproc --all)
+#Create Ofox root folder
+mkdir ~/OrangeFox_10&&cd ~/OrangeFox_10
+
+#Download and sync Ofox manifest
+rsync rsync://sources.orangefox.download/sources/fox_10.0 . --progress -a
 
 #Clone K-Touch i9 device tree and create device folder
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
-#Lunch command and build twrp
-. build/envsetup.sh
+#Lunch command and build ofox
+source build/envsetup.sh
 lunch omni_i9-eng
 mka recoveryimage
 
-#Download and Flash TWRP 
+#Download and Flash Ofox
 #out/target/product/i9/recovery.img #Result build will be inside this folder
 fastboot flash recovery out/target/product/i9/recovery.img
 ```
-# Custom Theme for K-TOUCH i9
-You can build an image with a TWRP custom theme, but keep in mind that this theme is deprecated in TWRP 3.5 or higher, you can mount the result recovery.img and replace the twres inside with <a href="https://github.com/daviiid99/K-Touch_i9/tree/twres">this theme</a>
