@@ -9,6 +9,10 @@ $(call inherit-product, device/ktouch/i9/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/BoardConfigKernel.mk)
+$(call inherit-product, vendor/twrp/config/BoardConfigSoong.mk)
+$(call inherit-product, vendor/twrp/config/BoardConfigTWRP.mk)
+$(call inherit-product, vendor/twrp/config/packages.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9
