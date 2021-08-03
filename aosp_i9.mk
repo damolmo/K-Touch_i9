@@ -13,7 +13,7 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9
-PRODUCT_NAME := omni_i9
+PRODUCT_NAME := aosp_i9
 PRODUCT_BRAND := Ktouch
 PRODUCT_MODEL := Ktouch
 PRODUCT_MANUFACTURER := ktouch
