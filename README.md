@@ -46,9 +46,8 @@ repo sync -j$(nproc --all)
 git clone -b TWRP-11-SAR https://github.com/daviiid99/K-Touch_i9.git device/ktouch/i9
 
 #Lunch command and build twrp
-. build/envsetup.sh
-lunch aosp_i9-eng
-make -j$(nproc --all) adbd recoveryimage
+. build/envsetup.sh; lunch twrp_i9-eng; mka recoveryimage
+
 
 #Download and Flash TWRP 
 #out/target/product/i9/recovery.img #Result build will be inside this folder
