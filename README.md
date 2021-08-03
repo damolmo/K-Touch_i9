@@ -39,7 +39,7 @@ git config --global user.name "Your Name"
 mkdir -p twrp&&cd twrp
 
 #Download and sync TWRP manifest
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-11.0
+repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
 repo sync -j$(nproc --all)
 
 #Clone K-Touch i9 device tree and create device folder
