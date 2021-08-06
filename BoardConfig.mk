@@ -25,6 +25,10 @@
 
 DEVICE_PATH := device/ktouch/i9
 
+# TWRP build flags
+ALLOW_MISSING_DEPENDENCIES := true
+LC_ALL=C
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
