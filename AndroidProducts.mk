@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_i9.mk
+    $(LOCAL_DIR)/twrp_i9.mk
