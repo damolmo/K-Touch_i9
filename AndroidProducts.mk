@@ -17,3 +17,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_i9.mk
+    
+COMMON_LUNCH_CHOICES := \
+    twrp_i9-user \
+    twrp_i9-userdebug \
+    twrp_i9-eng
