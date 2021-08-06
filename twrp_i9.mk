@@ -31,7 +31,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9
-PRODUCT_NAME := aosp_i9
+PRODUCT_NAME := twrp_i9
 PRODUCT_BRAND := Ktouch
 PRODUCT_MODEL := Ktouch
 PRODUCT_MANUFACTURER := ktouch
