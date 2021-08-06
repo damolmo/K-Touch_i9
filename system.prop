@@ -1,0 +1,6 @@
+ro.display.series=Ktouch i9
+ro.product.board=mtk6739
+ro.board.platform=mtk6739
+ro.adb.secure=0
+ro.product.first_api_level=27
+ro.skia.ignore_swizzle=true
