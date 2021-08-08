@@ -3,6 +3,9 @@ DEVICE_PATH := device/ktouch/i9
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# System-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
