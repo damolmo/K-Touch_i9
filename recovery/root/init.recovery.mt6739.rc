@@ -14,6 +14,9 @@ on init
     mkdir /config/usb_gadget/g1/functions/ffs.adb
     export ANDROID_ROOT /system_root
     setprop crypto.ready 1
+    
+on fs
+    export ANDROID_ROOT /system_root
 
 on post-fs-data
 # Support A/B feature for boot region
