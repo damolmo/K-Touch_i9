@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_i9.mk
+LOCAL_PATH := device/ktouch/i9
+

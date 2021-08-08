@@ -16,5 +16,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_i9.mk
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE), i9)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
