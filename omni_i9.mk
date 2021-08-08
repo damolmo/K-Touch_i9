@@ -19,6 +19,10 @@ PRODUCT_MODEL := Ktouch
 PRODUCT_MANUFACTURER := ktouch
 PRODUCT_RELEASE_NAME := Ktouch Ktouch
 
+# ADB Fix
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.usb.ffs.aio_compat=true
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
     
