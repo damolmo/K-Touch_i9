@@ -1,4 +1,4 @@
-# K-TOUCH i9 | TWRP (NO LONGER SUPPORTED)
+# K-TOUCH i9 | TWRP (CUSTOM ROMS Only)
 
 <img src="https://github.com/daviiid99/K-Touch_i9/blob/main/Screenshot_2010-01-28-09-54-07.png">
 
