@@ -1,12 +1,9 @@
 # mount point       fstype    device                                                                flags
-/boot               emmc      /dev/block/platform/bootdevice/by-name/boot                           flags=display="Boot";backup=1;flashimg=1;
-/recovery           emmc      /dev/block/platform/bootdevice/by-name/recovery                       flags=display="Recovery";backup=1;flashimg=1;
-/system_root        ext4      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";backup=1;wipeingui;
-/system_image       emmc      /dev/block/platform/bootdevice/by-name/system                         flags=display="System image";backup=1;flashimg=1;
-/vendor             ext4      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor";backup=1; wipeingui 
-/vendor_image       emmc      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor image";backup=1;flashimg=1;
-/data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data"; 
-/cache              ext4      /dev/block/platform/bootdevice/by-name/cache                          flags=display="Cache";
-/misc               emmc      /dev/block/platform/bootdevice/by-name/misc                           flags=display="Misc";backup=1;flashimg=1;
-/external_sd	      auto      /dev/block/mmcblk1p1 /dev/block/mmcblk1			            flags=display="MicroSD";storage;wipeingui;removable;backup=0;adopted_mount_delay=5
-/usb-otg            vfat      /dev/block/sda1 /dev/block/sda                                        flags=display="USB OTG";storage;wipeingui;removable
+/boot               emmc      /dev/block/platform/mtk-msdc.0/by-name/boot                           flags=display="Boot";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/platform/mtk-msdc.0/by-name/recovery                       flags=display="Recovery";backup=1;flashimg=1;
+/vendor             ext4      /dev/block/platform/mtk-msdc.0/by-name/vendor                         flags=display="Vendor";backup=1;
+/vendor_image       emmc      /dev/block/platform/mtk-msdc.0/by-name/vendor                         flags=display="Vendor image";backup=1;flashimg=1;
+/system             ext4      /dev/block/platform/mtk-msdc.0/by-name/system                         flags=display="System";backup=1;
+/system_image       emmc      /dev/block/platform/mtk-msdc.0/by-name/system                         flags=display="System image";backup=1;flashimg=1;
+/cache              ext4      /dev/block/platform/mtk-msdc.0/by-name/cache                          flags=display="Cache";
+/data               ext4      /dev/block/platform/mtk-msdc.0/by-name/userdata                       flags=display="Data";

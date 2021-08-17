@@ -16,8 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
-
-ifeq ($(TARGET_DEVICE), 5015A)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+add_lunch_combo omni_5015A-userdebug
+add_lunch_combo omni_5015A-eng

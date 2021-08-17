@@ -1,5 +1,5 @@
-# charger for Android 8.0 and up
+# healthd for pre Android 8.0
 
-service charger /charger -r
+service healthd /sbin/healthd -r
     critical
-    seclabel u:r:charger:s0
+    seclabel u:r:healthd:s0
